@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+/*whole of the generate password div*/
+.gen {
+    padding: 30px;
+}
+/*intro section div for borders*/
+.intro-section {
+    border-bottom: 1px solid grey;
+}
+/*this is the main heading part of password generator*/
+h1 {
+    font-family: 'Karla', sans-serif;
+    color: #FFFFFF;
+    font-size: 40px;
+}
+#greenText {
+    color: #4ADF86;
+}
+
+/*subheading*/
+h2 {
+    font-size: 20px;
+    color: #D5D4D8;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 60px;
+    margin-top: -20px;
+}
+
+/*password button*/
+#passwordButton {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: #10B981;
+    border: none;
+    color: #FFFFFF;
+    padding: 9px 15px;
+    border-radius: 10px;
+    margin-bottom: -5px;
+}
+
+
+#password {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+#passdiv {
+    color: #55F991;
+    background: #273549;
+    height: 39px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 19px;
+    line-height: 1px;
+    min-width: 200px;
+}
+
